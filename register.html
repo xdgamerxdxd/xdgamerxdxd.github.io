@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lr.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <div>
+        <h1>Register</h1>
+        <form action="http://localhost:3000/register" method="POST" class="form">
+            <input type="text" id="username" name="username" required>
+            <input type="password" id="password" name="password" pattern="(?=.*[a-z]).{8,}"  required>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>
